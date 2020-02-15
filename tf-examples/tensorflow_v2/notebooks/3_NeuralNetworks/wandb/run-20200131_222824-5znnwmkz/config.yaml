@@ -1,0 +1,26 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.8.22
+    is_jupyter_run: false
+    python_version: 3.7.3
+batch_size:
+  desc: null
+  value: 20
+display_step:
+  desc: null
+  value: 19
+learning_rate:
+  desc: null
+  value: 0.0013671154218592436
+n_hidden_1:
+  desc: null
+  value: 126
+n_hidden_2:
+  desc: null
+  value: 157
+training_steps:
+  desc: null
+  value: 3329

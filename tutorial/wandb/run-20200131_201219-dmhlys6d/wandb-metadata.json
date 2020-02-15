@@ -1,0 +1,23 @@
+{
+    "root": "/Users/carey/example-scripts/tutorial",
+    "program": "tutorial.py",
+    "git": {
+        "remote": "http://github.com/wandb/tutorial",
+        "commit": "1ffccf5c3fde09c8949a0943037c955a1e36ab76"
+    },
+    "email": "cvphelps@cs.stanford.edu",
+    "startedAt": "2020-01-31T20:12:19.633186",
+    "host": "carey",
+    "username": "carey",
+    "executable": "/Users/carey/anaconda3/bin/python",
+    "os": "Darwin-18.7.0-x86_64-i386-64bit",
+    "python": "3.7.3",
+    "cpu_count": 12,
+    "args": [],
+    "state": "finished",
+    "jobType": null,
+    "mode": "run",
+    "project": "sample-project",
+    "heartbeatAt": "2020-01-31T20:12:45.423324",
+    "exitcode": 0
+}
