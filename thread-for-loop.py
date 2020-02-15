@@ -1,16 +1,13 @@
-import wandb
-import random
+# Example: multiple runs in one thread
+# This script calls wandb.init in a for loop to create 10 runs.
+# reinit=True works to let you call wandb.init multiple times in
+# the same script.
 
-hyperparameter_defaults = dict(
-	dropout = 0.5,
-	batch_size = 100,
-	learning_rate = 0.001,
-	epochs = 2,
-	)
+import wandb
 
 for x in range(10):
-	wandb.init(config=hyperparameter_defaults, project="for-loop-runs", reinit=True)
+	wandb.init(project="for-loop-runs", reinit=True)
 	for y in range (100):
-		wandb.log({"metric": random.random()+x+y})
-	
-
+		wandb.log({"metric": x+y})
+		
+	wandb.join()
