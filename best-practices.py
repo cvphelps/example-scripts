@@ -10,6 +10,7 @@ config = dict (
 wandb.init(
   project="detect-pedestrians",
   notes="tweak baseline",
-  tags=["baseline", "paper1"]
+  tags=["baseline", "paper1"],
+  config=config,
 )
 
