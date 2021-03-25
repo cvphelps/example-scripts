@@ -193,7 +193,7 @@ python-gflags==3.1.2
 pytz==2018.9
 pyu2f==0.1.4
 pywavelets==1.0.2
-pyyaml==5.1
+pyyaml==5.4
 pyzmq==18.0.0
 qtawesome==0.5.7
 qtconsole==4.4.3
