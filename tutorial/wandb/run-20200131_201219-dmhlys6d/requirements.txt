@@ -175,7 +175,7 @@ pycparser==2.19
 pycrypto==2.6.1
 pycurl==7.43.0.2
 pyflakes==2.1.1
-pygments==2.3.1
+pygments==2.7.4
 pylint==2.3.1
 pyodbc==4.0.26
 pyopenssl==19.0.0
